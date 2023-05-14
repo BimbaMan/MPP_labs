@@ -1,0 +1,42 @@
+.posts_block {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.post {
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10px;
+    height: fit-content;
+    width: 25%;
+    color: rgba(255, 255, 255,0.7);
+    font-size: x-large;
+    background: rgba(103, 151, 240, 0.3);
+    border-radius: 10px;
+}
+
+.post div {
+    margin-top: 10px;
+}
+
+.post div:last-child {
+    margin-left: 45%;
+}
+
+.post:hover {
+    background: rgba(103, 151, 240, 0.485);
+    color: rgb(255, 255, 255);
+}
+
+.del_btn {
+    cursor: pointer;
+    font-size: medium;
+    padding: 1%;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+.del_btn:active {
+    transform: translateY(3px);
+}

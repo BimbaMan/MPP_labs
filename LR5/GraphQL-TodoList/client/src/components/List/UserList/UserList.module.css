@@ -1,0 +1,22 @@
+.users_block {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.user {
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10px;
+    height: fit-content;
+    width: 25%;
+    color: rgba(255, 255, 255,0.7);
+    font-size: x-large;
+    background: rgba(103, 151, 240, 0.3);
+    border-radius: 10px;
+}
+
+.user:hover {
+    background: rgba(103, 151, 240, 0.485);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.form_block {
+    width: 100%;
+}
+
+.my_form {
+    margin: auto;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    background: rgba(103, 151, 240, 0.367);
+    border-radius: 10px;
+}
+
+.my_form div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.my_form div input {
+    border: 0;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-large;
+    outline: none;
+}
+
+.btn {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: x-large;
+    padding: 1%;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn:active {
+    transform: translateY(3px);
+}
